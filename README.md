@@ -25,3 +25,9 @@ eg:
 
 说明：以上命令中--squash均为可选 ( git subtree push 加上--squash并没有什么卵用 )
 
+## git子模块使用之git submodule与 git subtree比较
+https://blog.csdn.net/liusf1993/article/details/72765131
+
+submodule与subtree的差异
+1. 核心区别 
+git submodule类似于引用，而git subtree类似于拷贝，比如你在一篇博客中想用到你另一篇博客的内容，git submodule是使用那篇博客的链接，而git subtree则是将内容完全copy过来。
