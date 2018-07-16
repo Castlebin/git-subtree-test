@@ -20,6 +20,6 @@ eg:
     git subtree push --prefix=python-learn git@github.com:Castlebin/python-learn.git master
     
     3. 远程python-learn的git repo经过其他人修改后，需要pull变化到本地的subtree子项目中
-    git subtree pull --prefix=python-learn git@github.com:Castlebin/python-learn.git master
+    git subtree pull --prefix=python-learn git@github.com:Castlebin/python-learn.git master --squash
     
 
