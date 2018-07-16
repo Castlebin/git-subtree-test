@@ -17,10 +17,10 @@ eg:
     git subtree add --prefix=python-learn git@github.com:Castlebin/python-learn.git master --squash
     
     2. 本地在对python-learn目录中代码做了一些修改后，需要push到远程的python-learn的git repo中
-    git subtree push --prefix=python-learn git@github.com:Castlebin/python-learn.git master
+    git subtree push --prefix=python-learn git@github.com:Castlebin/python-learn.git master --squash
     
     3. 远程python-learn的git repo经过其他人修改后，需要pull变化到本地的subtree子项目中
     git subtree pull --prefix=python-learn git@github.com:Castlebin/python-learn.git master --squash
     
 
-说明：
+说明：以上命令中--squash均为可选
